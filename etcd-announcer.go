@@ -41,6 +41,7 @@ Other arguments:
 -msg MESSAGE (must be set when -type msg)
 -ttl <TTL in seconds> (default: 30s)
 -path ETCD_PATH (default: /service)
+-etcd ETCD_URL (default: http://127.0.0.1:4001)
 `)
 	os.Exit(1)
 }
